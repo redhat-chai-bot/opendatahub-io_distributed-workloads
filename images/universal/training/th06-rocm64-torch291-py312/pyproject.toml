@@ -80,6 +80,13 @@ dependencies = [
     
     # Flash Attention (pre-built wheel from AIPCC)
     "flash-attn==2.8.3",
+
+    # ===================================================================
+    # CVE OVERRIDES (base-image packages pinned to patched versions)
+    # ===================================================================
+
+    # CVE-2026-49477: soupsieve DoS via catastrophic regex backtracking
+    "soupsieve>=2.8.4",
 ]
 
 [tool.uv]
