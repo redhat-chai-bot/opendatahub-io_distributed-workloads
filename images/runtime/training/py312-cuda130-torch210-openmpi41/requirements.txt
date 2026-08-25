@@ -3,7 +3,7 @@
 --index-url=https://console.redhat.com/api/pypi/public-rhai/rhoai/3.4/cuda13.0-ubi9/simple/
 absl-py==2.4.0
     # via tensorboard
-accelerate==1.12.0
+accelerate==1.14.0
     # via
     #   py312-cuda130-torch210-openmpi41 (pyproject.toml)
     #   peft
