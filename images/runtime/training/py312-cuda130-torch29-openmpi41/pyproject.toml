@@ -21,7 +21,7 @@ dependencies = [
     "xformers==0.0.33.post2",
 
     # ML Training and Inference Libraries
-    "accelerate==1.12.0",
+    "accelerate>=1.14.0",
     "transformers==4.57.6",
     "peft==0.18.1",
     "datasets==4.3.0",
